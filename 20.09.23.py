@@ -27,3 +27,10 @@ if 1<a<3 or 1<b<3 or 1<c<3:
         print(c, "Подходит")
     else:
         print("No")
+
+a = int(input("Введите сторону: "))
+b = int(input("Введите сторону: "))
+c = int(input("Введите сторону: "))
+p = (a+b+c)/2
+s = (p*((p-a)*(p-b)*(p-c)))**(1/2)
+print(s)
